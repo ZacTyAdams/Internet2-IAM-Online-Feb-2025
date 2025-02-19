@@ -8,7 +8,7 @@ This project is meant to demonstrate how LLM's can be run on a local machine usi
 
 ## How to run
 1. Clone this project and then from the project's root folder execute the command `docker compose build` or `docker-compose build` to build the contained docker images for ollama and the python ai app.
-2. In the same terminal window execute the command `docker compose up -d` or `docker-compose up -d` to start the application stack in the background. (If you machine has gpu resources you can try adding `--gpus all` to the end of this command to allow for faster inference)
+2. In the same terminal window execute the command `docker compose up -d` or `docker-compose up -d` to start the application stack in the background.
 3. Either:
 3a. Open the project in VSCode then select to open the folder in a Devcontainer
 3b. Or in the earlier terminal window execute the command `docker exec -it internet2-iam-online-2025-python-app-1 bash` to mount the container's bash terminal
